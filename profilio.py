@@ -3,7 +3,7 @@ st.set_page_config(page_title="Portfolio Mariéme", layout="wide")
 
 # ===== SIDEBAR =====
 # Photo
-sidebar.image("photo_marieme.jpeg", width=150)
+st.sidebar.image("photo_marieme.jpeg", width=150)
 
 st.sidebar.title("Ndéye Mariéme MBAYE")
 
