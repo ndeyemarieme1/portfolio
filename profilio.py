@@ -3,16 +3,7 @@ st.set_page_config(page_title="Portfolio Mariéme", layout="wide")
 
 # ===== SIDEBAR =====
 # Photo
-from pathlib import Path
-import streamlit as st
-
-BASE_DIR = Path(__file__).resolve().parent
-PHOTO = BASE_DIR / "image" / "photo_marieme.jpeg"   # adapte si tu renommes
-
-if PHOTO.exists():
-    st.sidebar.image(str(PHOTO), width=150)
-else:
-    st.sidebar.error(f"Photo introuvable : {PHOTO}"))
+st.sidebar.image("images/photo_marieme.jpg", width=150)
 
 st.sidebar.title("Ndéye Mariéme MBAYE")
 
