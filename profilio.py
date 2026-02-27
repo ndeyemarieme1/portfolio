@@ -31,8 +31,7 @@ Mon objectif est de développer des solutions numériques
 dans le domaine des Systèmes d’Information Géographique.
 """)
 # Formation
-
-   st.header("Formation")
+st.header("Formation")
 
     st.subheader("BTS en Géomatique")
     st.write("""
