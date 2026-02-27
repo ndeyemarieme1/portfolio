@@ -66,19 +66,26 @@ with col2:
 # Expériences
 st.header("Expériences professionnelles")
 
-st.subheader("Stage - DGPRE (Direction de la Gestion et de la Planification des Ressources en Eau
+st.subheader("Stage – DGPRE")
+st.caption("Direction de la Gestion et de la Planification des Ressources en Eau (DGPRE) • Ministère de l’Eau et de l’Assainissement • Sphère ministérielle de Diamniadio – Sénégal")
 
-C’est une structure du Ministère de l’Eau et de l’Assainissement,Sphère ministérielle de Diamniadio – Sénégal.)")
 st.write("""
-- Traitement et organisation des données hydrologiques
+**Missions / Activités :**
+- Traitement et organisation de données hydrologiques
 - Production de cartes thématiques
 - Appui à l’analyse spatiale
 """)
 
-st.subheader("Stage - au Service régional des Transports terrestres de Kaolack.")
+
+# --- Stage Transports terrestres Kaolack ---
+st.subheader("Stage – Service régional des Transports terrestres de Kaolack")
+st.caption("Service en charge des permis, immatriculation (carte grise), visites techniques et contre-visites • Kaolack – Sénégal")
+
 st.write("""
-- Collecte et structuration des données territoriales
-- Contribution à l’analyse spatiale
+**Missions / Activités :**
+- Appui au traitement des dossiers administratifs (permis, immatriculation)
+- Suivi des opérations liées aux visites techniques et contre-visites
+- Classement et archivage des documents
 """)
 
 # Projets
