@@ -101,14 +101,14 @@ st.write("""
 
 st.header("Rapports & Documents")
 
-with open("document/Rapport de stage.docx", "rb") as file:
+with open("Rapport de stage.docx", "rb") as file:
     st.download_button(
         label="📄 Télécharger mon rapport de stage",
         data=file,
         file_name="Rapport_de_stage_Marieme.docx",
         mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
     )
-with open("document/Rapport du travail.docx", "rb") as file:
+with open("Rapport du travail.docx", "rb") as file:
     st.download_button(
         label="📄 Télécharger mon rapport du travail",
         data=file,
