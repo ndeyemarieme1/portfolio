@@ -66,14 +66,16 @@ with col2:
 # Expériences
 st.header("Expériences professionnelles")
 
-st.subheader("Stage - DGPRE")
+st.subheader("Stage - DGPRE (Direction de la Gestion et de la Planification des Ressources en Eau
+
+C’est une structure du Ministère de l’Eau et de l’Assainissement,Sphère ministérielle de Diamniadio – Sénégal.)")
 st.write("""
 - Traitement et organisation des données hydrologiques
 - Production de cartes thématiques
 - Appui à l’analyse spatiale
 """)
 
-st.subheader("Stage - Ministère des Transports - Kaolack")
+st.subheader("Stage - au Service régional des Transports terrestres de Kaolack.")
 st.write("""
 - Collecte et structuration des données territoriales
 - Contribution à l’analyse spatiale
