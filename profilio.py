@@ -33,22 +33,22 @@ dans le domaine des Systèmes d’Information Géographique.
 # Formation
 st.header("Formation")
 
-    st.subheader("BTS en Géomatique")
-    st.write("""
-    CEDT G15 – Dakar, Sénégal  
-    2ème année – En cours
-    """)
+st.subheader("BTS en Géomatique")
+st.write("""
+CEDT G15 – Dakar, Sénégal
+2ème année – En cours
+""")
 
-    st.subheader("Licence en Géographie")
-    st.write("""
-    Université Cheikh Anta Diop – Dakar  
-    2ème année – En cours
-    """)
+st.subheader("Licence en Géographie")
+st.write("""
+Université Cheikh Anta Diop – Dakar
+2ème année – En cours
+""")
 
-    st.subheader("Certification en Web GIS")
-    st.write("""
-    Udemy – Certification en ligne
-    """)
+st.subheader("Certification en Web GIS")
+st.write("""
+Udemy – Certification en ligne
+""")
 # Compétences
 st.header("Compétences")
 
