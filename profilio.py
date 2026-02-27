@@ -30,7 +30,26 @@ la cartographie numérique et le traitement des données géospatiales.
 Mon objectif est de développer des solutions numériques 
 dans le domaine des Systèmes d’Information Géographique.
 """)
+# Formation
+elif menu == "Formation":
+    st.title("Formation")
 
+    st.subheader("BTS en Géomatique")
+    st.write("""
+    CEDT G15 – Dakar, Sénégal  
+    2ème année – En cours
+    """)
+
+    st.subheader("Licence en Géographie")
+    st.write("""
+    Université Cheikh Anta Diop – Dakar  
+    2ème année – En cours
+    """)
+
+    st.subheader("Certification en Web GIS")
+    st.write("""
+    Udemy – Certification en ligne
+    """)
 # Compétences
 st.header("Compétences")
 
